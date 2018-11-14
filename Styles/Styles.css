@@ -1,0 +1,46 @@
+﻿    /*Auto Complete Extender*/
+        .AutoExtender
+        {
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: .8em;
+            font-weight: normal;
+            border: solid 1px #006699;
+            line-height: 20px;
+            padding: 0px;
+            background-color: White;
+            margin:0px;
+            text-align:left;
+            position:absolute;
+            list-style-type:none;
+            height: 200px;
+            overflow:auto;
+            
+        }
+        .AutoExtenderList
+        {
+            border-bottom: dotted 1px #006699;
+            cursor: pointer;
+            color: Black;
+            list-style-type:none;
+            margin:0px;
+        }
+        .AutoExtenderHighlight
+        {
+            color: White;
+            background-color: #006699;
+            cursor: pointer;
+            list-style-type:none;
+            margin:0px;
+        }
+       #divwidth
+        {
+          width: 150px !important;    
+        }
+        #divwidth div
+       {
+        width: 150px !important;   
+       }
+
+
+/*Auto Complete Extender*/
+
