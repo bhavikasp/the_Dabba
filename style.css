@@ -1,7 +1,130 @@
-﻿header
+﻿*
+{
+    padding:0;
+    margin:0;
+       transition: all 0.5s linear;
+    
+    }
+
+
+header
 {
     background:#777;
     height:76px;
     display:flex;
-  }
+    justify-content: space-between;
+ }
+   header h1
+   {
+       text-transform:uppercase;
+       margin-top:15px;
+   }
+   
     
+    header ul
+    {
+        
+    display:flex;
+    list-style:none;
+    }
+    
+    header ul li
+    {
+            align-items: center;
+            margin-top: 26px;
+            margin-right:20px;
+margin-bottom:5px;
+    }
+
+ul li:hover{
+border:1px solid #0#e67e22;
+}
+
+ul li a
+{
+    display:inline-block;
+text-decoration:none;
+color:#fff;
+margin-bottom:5px;
+border-bottom:1px solid transparent;
+    transition: all 0.5s linear;
+
+}
+ul li a:hover
+{   text-decoration:none;
+    color:Black;
+border-bottom:1px solid #e67e22;
+}
+
+
+
+    
+    header img
+    {
+        height:76px;
+        }
+        
+        .btnn
+        {
+         
+           background: black;
+    padding: 10px 15px;
+    margin-top: -15px; 
+            }
+            
+            .nlogin
+            {
+                color: #000;
+    background: #f39c12;
+       transition: all 0.5s linear;
+                }
+                
+                .nlogin:hover
+                {            background: #000;
+    color: #f39c12;
+                    
+                    }
+                
+                .nsignup
+                {color: #000;
+    background: #e74c3c;
+       transition: all 0.5s linear;
+                    
+                    }
+                    
+                    .nsignup:hover
+                    {
+                        color:#e74c3c ;
+    background: #000;
+                        }
+                        
+                        
+     .registration
+     {
+         
+          background: rgba(170, 170, 170, 0.2);
+         height:100vh;
+         }
+         
+       form
+       {
+           width:40%;
+           margin:0 auto;
+           }
+             
+    
+                 
+   .form__input {
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 2px;
+  border: none;
+ 
+  font-family: inherit;
+  display: block;
+  border-bottom: 2px transparent solid;
+  color: #171717; }
+  
+  
+  .form__input:focus:invalid {
+    border-bottom: 2px red solid; }

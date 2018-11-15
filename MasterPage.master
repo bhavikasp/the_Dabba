@@ -20,14 +20,18 @@
   <body>
 <header>
 <h1>
+<img src="dabbalogo.jpg" alt="Alternate Text" />
 Dabawala
 </h1>
+
 <div class="navigation">
 <ul>
-    <li>Home</li>
-    <li>About Us</li>
-    <li>Contact Us</li>
-    <li>Clcik here</li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Clcik here</a></li>
+    <li><a href="#" class="btnn nlogin">Login</a></li>
+    <li><a href="Register.aspx" class="btnn nsignup" target="_blank">Resgister</a></li>
 </ul>
 </div>
 </header>
