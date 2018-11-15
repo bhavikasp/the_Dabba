@@ -3,9 +3,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
 <head id="Head1" runat="server">
     <title></title>
-    <link href="f:\Users\Acer\Documents\Visual Studio 2010\WebSites\dabba\Styles\Site.css" rel="stulesheet" type="text/css" />
+    <link href="f:\Users\Acer\Documents\Visual Studio 2010\WebSites\dabba\Styles\Site.css" rel="stylesheet" type="text/css" />
+    
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
@@ -28,14 +30,18 @@
         .header
         {
             text-align: center;
+            top: 1px;
+            left: 0px;
+            height: 169px;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
     <div class="header">
+    
         <div class="title">
-        <table>
+        <table style="height: 169px">
             <tr>
                 <td>
                     <asp:Image ID="Image1" runat="server" 
@@ -50,19 +56,7 @@
                 </tr>
             </table>
             </div>
-            <asp:LoginView ID="HeadLoginView"runat="server" EnableViewState="false" OnViewChanged="HeadLoginView_ViewChanged">
-            <AnonymousTemplate>
-                [ <a href="#" id="HeadLoginName" runat="server"><span class="auto-style2">LOG IN</span></a> ]
-            </AnonymousTemplate>
-            <LoggedInTemplate>
-                Welcome <span class="bold">
-                    <asp:LoginName ID="HeadLoginName" runat="server" />
-                    </span>![
-                    <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="LOG OUT"
-                    LogoutPageUrl="~/" />
-                    ]
-            </LoggedInTemplate>
-            </asp:LoginView>
+            
             </div>
             <div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu"
